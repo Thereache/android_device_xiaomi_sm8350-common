@@ -513,3 +513,7 @@ PRODUCT_COPY_FILES += \
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
     firmware_WCNSS_qcom_cfg.ini_symlink
+
+# Doze
+PRODUCT_PACKAGES += \
+    XiaomiDoze
