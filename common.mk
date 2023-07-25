@@ -147,6 +147,11 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.full.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.full.xml \
     frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml
 
+# Codec2
+PRODUCT_PACKAGES += \
+    libcodec2_vndk.vendor \
+    libcodec2_hidl@1.0.vendor
+
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 
@@ -307,7 +312,6 @@ PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-im
 
 # Media
 PRODUCT_PACKAGES += \
-    libcodec2_hidl@1.0.vendor \
     libmm-omxcore \
     libOmxAacEnc \
     libOmxAmrEnc \
