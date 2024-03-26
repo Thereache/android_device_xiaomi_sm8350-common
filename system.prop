@@ -18,6 +18,9 @@ vendor.post_boot.parsed=1s
 ro.min.fling_velocity=70
 ro.max.fling_velocity=21000
 
+# Display
+debug.cpurend.vsync=false
+
 # Graphics
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=1
