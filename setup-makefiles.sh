@@ -44,6 +44,7 @@ function lib_to_package_fixup_vendor_variants() {
     case "$1" in
         com.qualcomm.qti.dpm.api@1.0 | \
             libmmosal | \
+            vendor.qti.diaghal@1.0 | \
             vendor.qti.imsrtpservice@3.0 | \
             vendor.xiaomi.hardware.misys@1.0 | \
             vendor.xiaomi.hardware.misys@2.0 | \
