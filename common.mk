@@ -178,6 +178,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 
 # Dolby
 PRODUCT_PACKAGES += \
+    DSPVolumeSynchronizer \
     XiaomiDolby
 
 # DRM
