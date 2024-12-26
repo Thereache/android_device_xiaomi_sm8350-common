@@ -189,6 +189,10 @@ on boot
     chown system system /sys/class/touch/touch_dev/palm_sensor
     chmod 0664 /sys/class/touch/touch_dev/palm_sensor
 
+    # Touchscreen
+    chown system system /sys/devices/platform/goodix_ts.0/double_tap_enable
+    chmod 0664  /sys/devices/platform/goodix_ts.0/double_tap_enable
+
 on property:sys.boot_completed=1
     # Enable PowerHAL hint processing
     setprop vendor.powerhal.init 1
