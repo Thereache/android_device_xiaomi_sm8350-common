@@ -28,6 +28,10 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 BOARD_SHIPPING_API_LEVEL := 31
 PRODUCT_SHIPPING_API_LEVEL := $(BOARD_SHIPPING_API_LEVEL)
 
+# App Permissions
+PRODUCT_PACKAGES += \
+    privapp-permissions-google-p
+
 # Audio
 PRODUCT_PACKAGES += \
     libqcompostprocbundle \
