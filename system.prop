@@ -105,3 +105,10 @@ persist.vendor.sensors.enable.mag_filter=true
 
 # Silence minksocket logs
 persist.log.tag.minksocket=S
+
+#infinity
+ro.infinity.soc=Qualcomm Snapdragon 778G 5G (SM7325-2-AB)
+ro.infinity.battery=5000 mAh
+ro.infinity.display=2400 x 1080 pixels, 6.67 inches, 120 Hz
+ro.infinity.camera=108 MP main, 8 MP ultra-wide angle, 2 MP telemacro, 16 MP front
+ro.product.marketname=Poco X5 Pro 5G
